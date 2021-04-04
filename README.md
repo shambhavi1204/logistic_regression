@@ -39,3 +39,14 @@ differenciating it:
 The gradient ascent update equation becomes:
 
 ![first equation](https://latex.codecogs.com/gif.latex?%5Cbeta%20%5Cleftarrow%20%5Cbeta%20&plus;%5Calpha%20%5CDelta%20_%7B%5Cbeta%20%7DLL%28%5Cbeta%20%29)
+
+    
+      logistic regression                                                                 linear regression
+      categorical variable                                                                continuous variable
+      solve classification problem                                                        solve regression problems
+      Straight line graph                                                                 uses sigmoid graph
+      
+      Uses of logistic regression:
+      used for weather forcast such as whether it is clound or ot will rain or not
+      multiclass classification
+      medical use like diagnosis of various disease.
