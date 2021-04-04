@@ -18,3 +18,5 @@ putting the above value in sigmoid equation:
 Now , by taking inspiration from Bernaulli's traits, we find the log likelyhood function and differentiating it to find the gradient ascent update equation. Hence the likelihood is defined as :
 
 ![first equation](https://latex.codecogs.com/gif.latex?l%28%5Cbeta%20%29%20%3D%20%5Cprod%20%28h%28x_%7B%5Cbeta%20%7D%29%29%5E%7By%7D%281%20-%20h%28x_%7Bb%7D%29%29%5E%7B1-y%7D)
+log likelihood becomes:
+![second equation](https://latex.codecogs.com/gif.latex?LL%28%5Cbeta%20%29%20%3D%20%5Csum%20ylog%28h_%7B%5Cbeta%20%7D%28x%29%29&plus;%281-y%29log%281-h_%7B%5Cbeta%20%7D%28x%29%29)
